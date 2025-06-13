@@ -7,9 +7,12 @@ class Demo{
 	
 		if(i<4){
 		System.out.print("_");
-		}
+			}
 
 		}
 		
 	}
 }
+/*
+OUTPUT:1_4_9_16
+*/
