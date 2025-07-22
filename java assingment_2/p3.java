@@ -22,3 +22,6 @@ class Demo{
 
 	}
 }
+/*
+OUTPUT:Even: 3, Odd: 2
+*/
