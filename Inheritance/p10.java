@@ -11,3 +11,11 @@ class Demo{
 		
 	}
 }
+/*
+OUTPUT:
+925858445
+798154996
+Shubham
+Mane
+
+*/
