@@ -1,0 +1,7 @@
+interface parent{
+	void fun();
+
+	default void gun(){
+		System.out.println
+	}
+}
