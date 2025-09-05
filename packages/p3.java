@@ -7,3 +7,9 @@ class Demo{
 	obj.fun();
 	}
 }
+
+/*
+OUTPUT:
+in demo direct
+in codex fun
+*/
