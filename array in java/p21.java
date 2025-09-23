@@ -15,6 +15,7 @@ class Demo{
 			sum+=arr[i];
 		}
 		
+		
 		for(int i=0; i<1; i++){
 			
 			System.out.println("This is the sum if array :"+sum);
