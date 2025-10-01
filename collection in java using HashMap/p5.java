@@ -13,3 +13,8 @@ class Demo{
 		}
 	}
 }
+
+/*
+OUTPUT:
+Exception in thread "main" java.lang.ClassCastException: class java.lang.Integer cannot be cast to class java.lang.String 
+*/
