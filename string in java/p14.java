@@ -2,7 +2,7 @@ class Demo{
 	public static void main(String[]args){
 	
 	String s = "aabbcc";
-	char search = "a";
+	char search = 'a';
 	int count = 0;
 
 	for(int i=0; i<s.length(); i++){
@@ -11,8 +11,12 @@ class Demo{
 			count++;
 		}
 
-		}System.out.print(count);
+		}System.out.print("Appearance of the given element :"+count);
 	}
 }
 
-INCOMPLETE
+/*
+ OUTPUT:
+ Appearance of the given element :2
+ */
+
