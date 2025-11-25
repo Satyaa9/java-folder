@@ -2,7 +2,7 @@ import java.util.*;
 class Demo{
 	public static void main(String[]args){
 		String s = "satish";
-		String g = "gouri";
+		String g = "dadas";
 
 		HashMap<Character,Integer>hm = new HashMap<>();
 
