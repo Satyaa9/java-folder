@@ -10,18 +10,15 @@ class Demo {
 			} else if (a[l] <= a[m]) {
 				if (target >= a[l] && target < a[m]) {
 					h = m - 1;
-				} 
-				else {
+				} else {
 					l = m + 1;
 				}
-			}
-		 else {
-			if(target > a[m] && target <= a[h]){
-				l = m + 1;
-			}
-			else{
-				h = m-1;
-			}
+			} else {
+				if (target > a[m] && target <= a[h]) {
+					l = m + 1;
+				} else {
+					h = m - 1;
+				}
 			}
 		}
 		return -1;
@@ -37,6 +34,6 @@ class Demo {
 }
 
 /*
-OUTPUT :
-Index :3
-*/
+ * OUTPUT :
+ * Index :3
+ */
