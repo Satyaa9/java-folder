@@ -29,3 +29,10 @@ class Solution17{
         return result;
     }
 }
+
+/*
+OUTPUT:
+
+Array of element that are unique :[2, 4]
+
+* */
