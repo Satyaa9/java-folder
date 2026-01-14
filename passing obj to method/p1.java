@@ -1,8 +1,8 @@
-class Company{
+class Company1{
 	String comname;
 	String owner;
 
-	Company(String comname,String owner){
+	Company1(String comname,String owner){
 		this.comname=comname;
 		this.owner=owner;
 	}
@@ -24,10 +24,10 @@ class Company{
 
 }
 
-class Employee{
+class Employee1{
 	String empName;
 	
-	Employee(String empName){
+	Employee1(String empName){
 	
 	this.empName = empName;
 	}
@@ -49,7 +49,7 @@ class Employee{
 	}
 }
 
-class Demo{
+class Demo1{
 	public static void main(String[]args){
 		Company coditas = new Company("Coditas","chaman");
 		System.out.println("company name :"+coditas.getComName());
@@ -59,16 +59,16 @@ class Demo{
 
 		System.out.println("------------------------------------------------------");
 
-		Company capg = new Company("capgemini","ramu");
+		Company1 capg = new Company1("capgemini","ramu");
 		System.out.println("company name is:"+capg.getComName());
 		System.out.println("company owner:"+capg.getOwner());
 		System.out.println("company owner after one year:"+capg.getOwner());
 
 		System.out.println("------------------------------------------------------");
 
-		Employee shubham = new Employee("shubham");
+		Employee1 shubham = new Employee1("shubham");
 		System.out.println(shubham.getEmpName());
-		System.out.println(shubham.EmpData(capg));
+		System.out.println(shubham.getOwner(capg));
 		System.out.println(shubham.getOwner(capg));
 
 
