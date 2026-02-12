@@ -11,3 +11,10 @@ class Demo{
 		}
 	}
 }
+
+/*
+
+OUTPUT:
+Maximum : 99
+
+*/
