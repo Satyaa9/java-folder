@@ -20,3 +20,12 @@ class Demo{
 		System.out.print(b +" ");
 	}
 }
+
+/*
+
+OUTPUT :
+
+Before Swap :10 20
+After Swap :20 10
+
+*/
